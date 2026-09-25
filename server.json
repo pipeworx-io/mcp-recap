@@ -3,7 +3,7 @@
   "name": "io.github.pipeworx-io/recap",
   "title": "Recap",
   "description": "RECAP — the actual documents filed in US federal court cases.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "websiteUrl": "https://pipeworx.io/packs/recap",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-recap",
