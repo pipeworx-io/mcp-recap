@@ -1,0 +1,27 @@
+[
+  {
+    "name": "recap_filings",
+    "description": "List the DOCUMENTS FILED in a US federal court case — complaints, motions, orders, exhibits — with a direct link to each PDF. Reads the free RECAP archive on the Internet Archive; no API key and no PACER fee. Give a docket_id from a docket search, or a court and docket number. Returns document links and docket-entry numbering, NOT document text. Coverage is partial (about 36% of dockets, higher in appellate courts) because RECAP holds only what PACER users have contributed.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "docket_id": {
+          "type": "number",
+          "description": "Docket id from federal_civil_search, federal_criminal_search, bankruptcy_search or federal_appeal_search."
+        },
+        "court": {
+          "type": "string",
+          "description": "Court id, e.g. \"nysd\" — use together with docket_number."
+        },
+        "docket_number": {
+          "type": "string",
+          "description": "Docket number as the court records it, e.g. \"1:15-cv-02842\"."
+        },
+        "limit": {
+          "type": "number",
+          "description": "Maximum documents to return (1-200, default 50)."
+        }
+      }
+    }
+  }
+]
