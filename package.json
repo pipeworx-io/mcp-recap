@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-recap",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "RECAP — the actual documents filed in US federal court cases.",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "recap",
     "gatewaySlug": "recap",
-    "sourceHash": "v1-a3674ad5e9bf1a8c9b0cdafc8584b7a2fbc17b0e538a7299076acdb819be0a9a",
-    "sourceCommit": "6bae4cfa7b6a73bbe014dc8820a19c80c842b21e"
+    "sourceHash": "v1-496f4c323357341960fc74565ef6d143a9927eedf4afc88969c0751205cbabf7",
+    "sourceCommit": "db27387ed3ef7ec4805d465f7964a7f65f937006"
   }
 }
